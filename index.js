@@ -21,7 +21,8 @@ const admnsRouter = require("./routes/Admns");
 app.use("/admns", admnsRouter);
 
 db.sequelize.sync().then(() => {
-  app.listen(3001, () => {
-    console.log("Server running on port 3001");
-  });
+
+  app.listen(80, function(){
+    console.log('Listening on port ' + listener.address().port); 
+});
 });
