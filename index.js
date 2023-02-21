@@ -21,8 +21,6 @@ const admnsRouter = require("./routes/Admns");
 app.use("/admns", admnsRouter);
 
 db.sequelize.sync().then(() => {
-
-  app.listen('https://neighbourhood-server.vercel.app/', function(){
-    console.log('Listening on port https://neighbourhood-server.vercel.app/'); 
-});
+  const port = process.env.PORT || 3001;
+  app.listen(port, () => console.log(`Listening to port ${port}`));
 });
