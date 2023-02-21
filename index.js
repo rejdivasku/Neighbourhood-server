@@ -22,7 +22,7 @@ app.use("/admns", admnsRouter);
 
 db.sequelize.sync().then(() => {
 
-  app.listen(80, function(){
-    console.log('Listening on port ' + listener.address().port); 
+  app.listen('https://neighbourhood-server.vercel.app/', function(){
+    console.log('Listening on port https://neighbourhood-server.vercel.app/'); 
 });
 });
