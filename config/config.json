@@ -14,10 +14,10 @@
     "dialect": "mysql"
   },
   "production": {
-    "username": "root",
-    "password": "7l1EXfJDjq7Zd50piN2U",
-    "database": "railway",
-    "host": "containers-us-west-96.railway.app",
+    "username": "u5x2fs5pkaxukz81",
+    "password": "4j0jm693FfpLUYqLyC0J",
+    "database": "bdbpwlju5o7jrlcdulwz",
+    "host": "bdbpwlju5o7jrlcdulwz-mysql.services.clever-cloud.com",
     "dialect": "mysql"
   }
 }
