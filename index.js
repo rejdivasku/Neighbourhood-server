@@ -8,7 +8,7 @@ app.use(cors());
 const db = require("./models");
 
 // Routers
-const postRouter = require("./routes/post");
+const postRouter = require("./routes/Post");
 app.use("/post", postRouter);
 
 const categoryRouter = require("./routes/Category");
